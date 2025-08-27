@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Playfair", serif; */
+
+/* Header.css */
+
+/* Header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  text-transform: uppercase;
+  transition: color 0.3s, border-bottom 0.3s;
+  padding-bottom: 5px;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+/* Active Link (Highlighted and Underlined) */
+.nav-link.active {
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+/* *************************** */
+/* footer */
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links a {
+  color: #fdd835;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.footer-icons a:hover {
+  color: #fdd835;
+}
+
+
+
+/* ************Page not found******************* */
+
+
+.pagenotfound {
+  text-align: center;
+  padding: 50px;
+}
+
+.pagenotfound h1 {
+  font-size: 80px;
+  color: red;
+  margin: 10px 0;
+}
+
+.pagenotfound h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.pagenotfound p {
+  font-size: 16px;
+  color: #666;
+}
+
+.back-home {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-home:hover {
+  background: #0056b3;
+}
+
+/* *********Contact Us******** */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.contact-row {
+  display: flex;
+  width: 80%;
+  max-width: 1100px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.contact-img {
+  width: 50%;
+}
+
+.contact-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-info {
+  width: 50%;
+  padding: 30px;
+  background: #f8f9fa;
+}
+
+.contact-info h1 {
+  background: #343a40;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #007bff;
+  font-size: 20px;
+}
+
+
+/* **********About Us Page********** */
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Image Styling */
+.about-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.about-card h2 {
+  color: #007bff;
+}
+
+.about-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* ======================
+========register Page == */
+
+
+  /* .register-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+  
+  .register-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .register-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .register-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .register-form .form-control {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .register-form .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 600px) {
+    .register-container {
+      margin: 20px;
+      padding: 20px;
+    }
+  
+    .register-title {
+      font-size: 24px;
+    }
+  }
+   */
+
+
