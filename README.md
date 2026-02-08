@@ -99,7 +99,7 @@ The application uses the following APIs:
 👤 Author
 =======
 
-The E-commerce Website was developed by [Your Name].
+The E-commerce Website was developed by Nirmal Mahto.
 
 📝 License
 =======
